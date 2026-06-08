@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Design Portfolio</title>
+    <!-- Link ke file CSS luar -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Biar Keren -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVBAR (Navigasi Atas) -->
+    <header>
+        <div class="navbar container">
+            <div class="logo">WA.<span>DESIGN</span></div>
+            <nav>
+                <a href="#hero">Home</a>
+                <a href="#works">Works</a>
+                <a href="#about">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION (Sambutan Utama) -->
+    <section id="hero" class="container">
+        <div class="hero-content">
+            <h1>Creative Designer <br>& Visual Artist</h1>
+            <p>Halo! Saya seorang desainer grafis yang fokus pada pembuatan identitas visual, branding, dan desain digital yang berkarakter.</p>
+            <a href="#works" class="btn-primary">Lihat Karya</a>
+        </div>
+    </section>
+
+    <!-- WORKS SECTION (Galeri Karya/Portofolio) -->
+    <section id="works" class="container">
+        <h2>Selected Works</h2>
+        <div class="portfolio-grid">
+            
+            <!-- Item Portofolio 1 -->
+            <div class="portfolio-card">
+                <div class="image-box">
+                    <!-- Ganti 'karya1.jpg' dengan nama file gambarmu nanti -->
+                    <img src="https://via.placeholder.com/600x450" alt="Project 1">
+                </div>
+                <h3>Branding Identity Concept</h3>
+                <p>Logo & Visual Guidelines</p>
+            </div>
+
+            <!-- Item Portofolio 2 -->
+            <div class="portfolio-card">
+                <div class="image-box">
+                    <img src="https://via.placeholder.com/600x450" alt="Project 2">
+                </div>
+                <h3>Social Media Feed Design</h3>
+                <p>Digital Marketing Content</p>
+            </div>
+
+            <!-- Item Portofolio 3 -->
+            <div class="portfolio-card">
+                <div class="image-box">
+                    <img src="https://via.placeholder.com/600x450" alt="Project 3">
+                </div>
+                <h3>Merchandise & Apparel</h3>
+                <p>Custom T-Shirt Illustration</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ABOUT & CONTACT SECTION -->
+    <section id="about" class="container">
+        <div class="about-box">
+            <h2>Mari Bekerjasama</h2>
+            <p>Punya proyek menarik atau ingin berdiskusi seputar desain? Hubungi saya sekarang.</p>
+            <div class="social-links">
+                <a href="#" target="_blank">Instagram</a>
+                <a href="#" target="_blank">Behance</a>
+                <a href="mailto:emailmu@gmail.com">Email</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 WA.DESIGN. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
