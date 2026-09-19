@@ -1191,8 +1191,10 @@ function applyTheme() {
 function showLoginScreen() {
   $('loginScreen').classList.add('active');
   document.body.style.overflow = 'hidden';
+  // Reload users dari localStorage (dapat update dari Kasen Manager)
   USERS = loadLS('kasen_users', []) || [];
-  if (USERS.length === 0) showModeEmpty(); else showModePin();
+  // Selalu tampilkan PIN pad, tidak peduli ada user atau tidak
+  showModePin();
 }
 function showModeEmpty() {
   $('modePin').style.display = 'none';
